@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6</title>
+    <style>
+        .raj{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2% 20%;
+            margin: 0 5%;
+            margin-top: 5%;
+            align-items: center;
+        }
+        .raj26{
+            justify-content: center;
+            padding: 2% 20%;
+            margin: 0 5%;
+            align-items: center;
+        }
+        .Username,.password{
+            width: 500px;
+            padding: 10px;
+            border: 2px solid rgb(233, 230, 230);
+            border-radius: 0px;
+        }
+        .Login{
+            width: 525px;
+            background-color: rgb(122, 184, 122);
+            padding: 1%;
+        }
+        .cancel{
+            width: 70px;
+            height: 32px;
+            padding: 1%;
+            background-color: rgb(236, 104, 104);
+            color: white;
+            border: 1px solid #ebeaea; 
+            border-radius: 5px;
+        }
+        table{
+            border: 1px solid rgb(235, 231, 231);
+            padding: 2px;
+            background-color: rgb(235, 232, 232);
+        }
+        td{
+            width: 250px;
+            padding: 2px;
+        }
+        .link{
+            text-align: right;
+        }
+        .Login:hover{
+            background-color: rgb(49, 121, 49);
+        }
+        .cancel:hover{
+            background-color: rgb(238, 51, 37);
+        }
+        .image{
+            text-align: center;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="raj">
+        <div class="image">
+        <img src="dummyprofiljpg.png"><br><br>
+        </div>
+        <div class="raj26">
+        <label class=><b><i>User Name</i></b></label><br><br>
+        <input type="text" class="Username" name="Username" placeholder="Enter Username"><br><br>
+        <label><b><i>Password</i></b></label><br><br>
+        <input type="password" class="password" name="password" placeholder="Enter Password"><br><br>
+        <button class="Login" style="color: white;border-color: white;">Login</button><br><br>
+        <input type="checkbox" name="remember me" id="remember">Remember me<br><br>
+        <table>
+            <tr>
+                <td style="text-align: left;"><button class="cancel" style="text-align: center;">Cancel</button></td>
+                <td class="link"><a href="www.forgotpassword.com">Forgot Password?</a></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</body>
+</html>
